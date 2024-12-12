@@ -1,0 +1,12 @@
+//Vid 448
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.boton {
+    @include m.boton(v.$azul, v.$blanco);
+}
+
+//Vid 539
+.boton-eliminar {
+    @include m.boton(v.$rojo, v.$blanco);
+}
